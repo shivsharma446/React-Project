@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+.header{
+    background: url(../assets/BG-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: #14274A !important;
+}
+.contact-header{
+    background: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-color: #14274A !important;
+}
+.header .navbar-brand{
+    margin-top: -15px;
+}
+.all-bg{
+    background-color: #14274A !important;
+}
+.header .navbar p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.header .bottom-content .bottom-icons{
+    font-size: 30px;
+    cursor: pointer;
+}
+.header .navbar ul li a{
+    font-weight: 600;
+}
+.header .navbar ul li::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: width .5s;
+}
+.header .navbar ul li:hover::after{
+    width: 100%;
+    transition: width .5s;
+}
+.header .donation-btn{
+    background: rgb(113,94,184);
+    background: linear-gradient(90deg, rgba(113,94,184,1) 54%, rgba(234,72,131,1) 100%);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header .left-content{
+    min-height: 55vh;
+}
+.header .left-content h4,p{
+    font-family: 'Montserrat', sans-serif;
+}
+.header .left-content h1,h3{
+    font-family: 'Arvo', serif !important;
+    line-height: 1;
+}
+.head-btn{
+    background-color: #E0B973;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sec-first{
+    background-image: url(../assets/43081.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.main-section h1{
+    font-family: 'Arvo', serif !important;
+    font-weight: 600;  
+}
+.main-section .custom-room{
+    border-left: 2px solid black;
+}
+.main-section img{
+    width: 100%;
+}
+.main-footer .address p{
+    font-size: 10px;
+}
+.main-footer .search-btn{
+    display: inline-grid;
+}
+.main-footer .search-btn p{
+    background: #E0B973;
+    padding: 3px 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    font-weight: 700;
+    color: black;
+}
+.main-footer .search-btn input{
+    background: transparent;
+    border: 2px solid #E0B973;
+    border-radius: 3px;
+}
+.main-footer .search-btn input::placeholder{
+    color: white;
+}
+.main-section .room-header h1{
+    margin-top: -15px;
+}
+.testinomial i{
+    font-size: 30px;
+    color: #E0B973;
+}
+.bg-footer{
+    background-image: url(../assets/footer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem 0 2rem 0;
+}
+.carousel-indicators{bottom : 60px !important;}
